@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  *{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+   
+  }
+
+.Title {
+   @apply sm:text-5xl font-bold text-3xl; 
+  }
+  .Title2 {
+    @apply text-3xl font-bold;
+   }
+  button , .navbar-button  {
+    @apply rounded-full px-9 py-1.5 ; 
+  }
+ 
